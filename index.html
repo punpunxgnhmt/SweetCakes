@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sweet Cakes</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+            <ul class="header__list">
+                <li class="header__item header__address">
+                    <img src="./images/map.png" alt="" class="map">
+                    <div class="banner__slogan">
+                        <p>16 rue Royale,</p>
+                        <p>75008 Paris France</p>
+                    </div>
+                </li>
+                <li class="header__item header__logo">
+                    <img src="./images/logo.png" alt="" class="header__logo-img">
+                </li>
+                <li class="header__item header__contact banner-content">
+                    <a href="" class="header__contact-link">
+                        <i class="fa fa-envelope-o"></i>
+                        GET IN TOUCH
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- NAV -->
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="./index.html" style="color: #c14679;"><i class="fa fa-home"></i> home</a></li>
+                <li><a href="./gallery/gallery.html">gallery</a></li>
+                <li>
+                    <a href="./product/product.html">Shop <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="./product/product.html">Products</a></li>
+                        <li>
+                            <a href="./detail/detail.html">Detail<i class="fa fa-angle-right"></i></a>
+                            <ul class="sub-child">
+                                <li><a href="">Cakes</a></li>
+                                <li><a href="">Baking</a></li>
+                                <li><a href="">Recipes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./cart/cart.html">Cart</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./blog/grid/grid.html">Blog <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="./blog/grid/grid.html">Grid Blog</a></li>
+                        <li><a href="./blog/lists/list.html">Blog List</a></li>
+                        <li><a href="./blog/post/post.html">Blog Post</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./offer/offer.html">About <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Our team</a></li>
+                        <li><a href="./offer/offer.html">What we offer?</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="./contact/contact.html">contact us</a></li>
+
+            </ul>
+            <div class="btn-left">
+                <a href=""><i class="fa fa-search"></i></a>
+                <a href="./accout/register.html"><i class="fa fa-user-circle-o"></i></a>
+            </div>
+        </div>
+        <!-- SLIDER -->
+        <div class="slider">
+            <div class="text-content">
+                <h2 class="content-title">Delicious</h2>
+                <h3 class="content-sub">
+                    <hr>cakes of you
+                </h3>
+                <p class="content-description">Sweet Cakes offers the best <br>cakes and sweets for you.</p>
+                <a href="" class="content-btn">Shop now</a>
+            </div>
+
+        </div>
+
+        <div class="promo">
+            <h4>Only Fresh Cakes</h4>
+            <p>
+                All of our products are made from scratch using family recipes with only the highest quality
+                ingredients.
+                We bake and sell fresh daily to ensure only the best products are sold to our customers.
+            </p>
+            <a href=""><i class="fa fa-arrow-right"></i></a>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content">
+            <!-- OFFER -->
+            <div class="content-section">
+                <h2 class="section-heading">WHAT WE OFFER</h2>
+                <div class="offer-list">
+                    <div class="offer-card">
+                        <a href="" class="offer-img">
+                            <img src="./images/offer/macaron.gif" alt="">
+                        </a>
+                        <div class="offer-content">
+                            <h3 class="offer-title">MACAROON CAKES</h3>
+                            <p class="offer-description">
+                                Nothing tastes better than a chocolate cake with a variety of flavors, which is always
+                                available at our bakery.
+                            </p>
+                            <a href="" class="offer-btn">READ MORE</a>
+                        </div>
+                    </div>
+
+                    <div class="offer-card">
+                        <a href="" class="offer-img">
+                            <img src="./images/offer/cup-cake.gif" alt="">
+                        </a>
+                        <div class="offer-content">
+                            <h3 class="offer-title">PARTY CUPCAKES</h3>
+                            <p class="offer-description">
+                                We provide a variety of cupcakes for any party made with high-quality natural
+                                ingredients and no preservatives.
+                            </p>
+                            <a href="" class="offer-btn">READ MORE</a>
+                        </div>
+
+                    </div>
+
+                    <div class="offer-card">
+                        <a href="" class="offer-img">
+                            <img src="./images/offer/donut.gif" alt="">
+                        </a>
+                        <div class="offer-content">
+                            <h3 class="offer-title">DONUT CAKES</h3>
+                            <p class="offer-description">
+                                Want to make your wedding unforgettable? Then you need to order a unique wedding cake at
+                                Sweet Cakes!
+                            </p>
+                            <a href="" class="offer-btn">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEW-PRODUCTS -->
+            <div class="new-product">
+                <div class="content-section">
+                    <h2 class="section-heading">NEW PRODUCTS</h2>
+
+                    <div class="product-card">
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-1.jfif) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>macaroon cakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $25.00
+                                        
+                                    </span>
+                                    <span class="new-price">
+                                        $10.00
+                                        
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-2.jpg) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>lemon wire pudding</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $20.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                    style="background: url(./images/product/sp-3.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badges">NEW</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>strawberry cake</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $12.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-4.jpeg) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>Orange crepe</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $20.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-5.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>Mochi Strawberry</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $25.00
+                                    </span>
+                                    <span class="new-price">
+                                        $15.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-6.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badges">NEW</span>
+
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>fruits cupcakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $25.00
+                                    </span>
+                                    <span class="new-price">
+                                        $10.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-7.jpg) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>donut cakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+
+                                    <span class="new-price">
+                                        $10.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(./images/product/sp-8.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>orange pudding</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $35.00
+                                    </span>
+                                    <span class="new-price">
+                                        $30.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-button">
+                            <a href="./product/product.html" class="content-btn">view all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHOOSE US -->
+            <div class="content-section">
+                <h2 class="section-heading">WHY CHOOSE US</h2>
+                <div class="choose-us">
+                    <div class="choose-left">
+                        <div class="choose-l-one">
+                            <h4>quality products</h4>
+                            <p>We guarantee the quality of all the cakes we provide as they are baked using the freshest
+                                ingredients.</p>
+                            <a href=""><i class="fa fa-birthday-cake"></i></a>
+                        </div>
+                        <hr>
+                        <div class="choose-l-two">
+                            <h4>free delivery</h4>
+                            <p>All orders submitted by our UK clients are delivered for free throughout the United
+                                States.</p>
+                            <a href=""><i class="fa fa-truck"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="choose-center">
+                        <a href=""><img src="./images/why-choose-us.jpg" class="choose-img" alt=""></a>
+                    </div>
+
+                    <div class="choose-right">
+                        <div class="choose-r-one">
+                            <h4>catering service</h4>
+                            <p>Our bakery also provides an outstanding catering service for events and special
+                                occasions.</p>
+                            <a href=""><i class="fa fa-handshake-o"></i></a>
+                        </div>
+                        <hr>
+                        <div class="choose-r-two">
+                            <h4>online payment</h4>
+                            <p>We accept all kinds of online payments including Visa, MasterCard, American Express
+                                credit cards.</p>
+                            <a href=""><i class="fa fa-credit-card-alt"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- COUPON -->
+            <div class="coupon">
+                <div class="sale-content">
+                    <h2>SPRING SALE</h2>
+                    <div class="sale-discount">
+                        <span class="sale__percent">-20%</span>
+                        <span class="sale__type">On all cakes</span>
+                    </div>
+                    <p>Purchase our tasty cakes and sweets for your next event or family<br> dinner at our online shop
+                        and save more money than anywhere.</p>
+                    <br><br>
+                    <a href="" class="content-btn">shop now</a>
+                </div>
+
+            </div>
+
+            
+    <!-- ABOUT-US -->
+    <div class="content-section">
+        <h2 class="section-heading">ABOUT US</h2>
+
+        <div class="about-us">
+            <div class="about-img">
+                <img src="../images/about.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h4>Providing quality baked<br> goods for all customers</h4>
+                <p>Our mission is to create a bakery that makes the best quality<br> baked goods on site from scratch, 
+                    and where both employees<br> and customers would feel comfortable.</p>
+                <div class="content-btn">
+                    <a href="# " class="btn-about">Read more</a>
+                </div>
+                <div class="content-sub">
+                    <div class="sub-one">
+                        <span>01</span>
+                        <h3>OUR MISSION</h3>
+                    </div>
+                    <div class="sub-two">
+                        <span>02</span>
+                        <h3>OUR VALUES</h3>
+                    </div>
+                    <div class="sub-three">
+                        <span>03</span>
+                        <h3>OUR GOALS</h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- OUR TEAM -->
+    <div class="our-teams">
+        <h2>Our teams</h2>
+        <div class="main">
+            
+            <div class="profile-card">
+                <div class="img">
+                    <img src="./images/users/team-1.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Richard smith</h3>
+                    <p>Founder and Head baker</p>
+                    <div class="social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="./images/users/team-2.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Caroline Lopez</h3>
+                    <p>Decorate and Marketing </p>
+                    <div class="social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-card">
+                <div class="img">
+                    <img src="./images/users/team-3.jpg">
+                </div>
+                <div class="caption">
+                    <h3>Steve Ruffalo</h3>
+                    <p>Cake designer</p>
+                    <div class="social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+
+    <!-- GIỚI THIỆU -->
+    <div class="introduce">
+        <div class="intro-content">
+            <h3 class="intro-sologan">Unique Flavors and Fresh Ingredients</h3>
+            <h2 class="intro-title">All Kinds of Cakes</h2><br>
+            <a href="../product/product.html" class="content-btn">shop now</a>
+        </div>
+    </div>
+
+            <!-- FEEDBACK -->
+            <div class="content-section">
+                <h2 class="section-heading">FEEDBACK</h2>
+                <div class="feedback-lists">
+                    <div class="feedback-list">
+                        <input type="radio" name="dot" id="one">
+                        <input type="radio" name="dot" id="two">
+                        <div class="main-feedback">
+                            <div class="feedbacks">
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-1.jfif" alt="">
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>Susan anderson</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            Thank you so much for the elegant cupcakes. They looked and tasted amazing.
+                                            I’m recommending you to all my friends.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-2.jfif" alt="">
+
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>patrick goodman</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            Just a note to let you know how fabulous your wedding cake was.
+                                            Many guests commented on how delicious it tasted.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-3.jfif" alt="">
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>OSEPHINE LANGFORD</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            If you are looking for the mouth deliciousness, 
+                                            then you should definitely try the goods from the Sweet Cakes.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="feedbacks">
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-4.jfif" alt="">
+
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>jane smith</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            Just a note to let you know how fabulous your wedding cake was.
+                                            Many guests commented on how delicious it tasted.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-5.jfif" alt="">
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>Mitchel Sanchez</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            This bakery was great to work with and I will be using them for my future events. 
+                                            Their cupcakes tasted absolutely delightful.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="feedback">
+                                    <div class="feedback-img">
+                                        <img src="./images/users/user-6.png" alt="">
+
+                                    </div>
+                                    <div class="feedback-info">
+                                        <h4>Noof Hasher</h4>
+                                        <h6>Client</h6>
+                                        <hr>
+                                        <p><i class="fa fa-quote-left"></i>
+                                            Thank you so much for the elegant cupcakes. They looked and tasted amazing.
+                                            I’m recommending you to all my friends.
+                                            <i class="fa fa-quote-right"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <label for="one" class=" active one"></label>
+                            <label for="two" class="two"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LATEST-NEWS -->
+            <div class="latest-news">
+                <div class="content-section">
+                    <h2 class="section-heading">LATEST NEWS</h2>
+
+                    <div class="latest-new">
+                        <div class="latest-first">
+                            <a href=""><img src="./images/latest/p-one.gif" class="main latest-post" alt=""></a>
+                            <div class="f-content">
+                                <time class="time">December 21, 2021</time>
+                                <h4>How to Pipe a Fluffy Frosting Border on a Cake</h4>
+                            </div>
+                        </div>
+                        <div class="latest-second">
+                            <div class="l-second-one">
+                                <a href=""><img src="./images/latest/p-two.jpg" class="sub latest-post" alt=""></a>
+                                <div class="s-content">
+                                    <time class="time">December 21, 2021</time>
+                                    <h4>Recipe of the Day:<br> Pumpkin Spice Latte<br> Cake</h4>
+                                </div>
+                            </div>
+                            <div class="l-second-two">
+                                <a href=""><img src="./images/latest/p-three.jpg" class="sub latest-post" alt=""></a>
+                                <div class="s-content">
+                                    <time class="time">December 21, 2021</time>
+                                    <h4>Recipe of the Day:<br> Pumpkin Spice Latte<br> Cake</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- PARTNER -->
+
+        <div id="partner">
+            <div class="partner-img">
+                <a href=""><img src="./images/partner/partner-1.png" alt=""></a>
+                <a href=""><img src="./images/partner/partner-2.png" alt=""></a>
+                <a href=""><img src="./images/partner/partner-3.png" alt=""></a>
+                <a href=""><img src="./images/partner/partner-4.png" alt=""></a>
+                <a href=""><img src="./images/partner/partner-5.png" alt=""></a>
+
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div id="footer-main">
+                <div class="gallery">
+                    <h2>gallery</h2>
+                    <div class="img-gallery">
+                        <div class="thumnail">
+                            <a href=""><img src="./images/footer/footer-1.jpg" class="grid-gallery" alt=""></a>
+                            <a href=""><img src="./images/footer/footer-2.jpg" alt=""></a>
+                            <a href=""><img src="./images/footer/footer-3.jpg" alt=""></a>
+                        </div>
+
+                        <div class="thumnail">
+                            <a href=""><img src="./images/footer/footer-4.jpg" alt=""></a>
+                            <a href=""><img src="./images/footer/footer-5.jpg" alt=""></a>
+                            <a href=""><img src="./images/footer/footer-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="quick-link">
+                    <h2>quick link</h2><br>
+                    <div class="link">
+                        <div class="link-left">
+                            <a href="">- About Us</a><br>
+                            <a href="">- Our Team</a><br>
+                            <a href="">- Shop</a><br>
+                            <a href="">- Pricing</a><br>
+                            <a href="">- FQA</a><br>
+                            <a href="">- Contact Us</a><br>
+                        </div>
+
+                        <div class="link-right">
+                            <a href="">- What We Offer</a><br>
+                            <a href="">- Our blog</a><br>
+                            <a href="">- Testimonials</a><br>
+                            <a href="">- Baking School</a><br>
+                            <a href="">- Our Recipes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="social-links">
+                    <h2>get in touch</h2>
+                    <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> 16 rue Royale,75008 Paris
+                        France</a><br>
+                    <a href=""><i class="fa fa-phone" aria-hidden="true"></i> (+84)123 456 789</a><br>
+                    <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> punpunxd@gmail.com</a>
+                    <div class="social-network">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div id="footer-sub">
+                <p><i class="fa fa-copyright"></i> 2021.Sweet Cakes All Right Reserved</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

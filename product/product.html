@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./product.css">
+    <title>Product</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <ul class="header__list">
+            <li class="header__item header__address">
+                <img src="/images/map.png" alt="" class="map">
+                <div class="banner__slogan">
+                    <p>16 rue Royale,</p>
+                    <p>75008 Paris France</p>
+                </div>
+            </li>
+            <li class="header__item header__logo">
+                <img src="/images/logo.png" alt="" class="header__logo-img">
+            </li>
+            <li class="header__item header__contact banner-content">
+                <a href="" class="header__contact-link">
+                    <i class="fa fa-envelope-o"></i>
+                    GET IN TOUCH
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- NAV -->
+    <div class="nav">
+        <ul class="menu">
+            <li><a href="../index.html"><i class="fa fa-home"></i> home</a></li>
+            <li><a href="../gallery/gallery.html">gallery</a></li>
+            <li>
+                <a href="../product/product.html" style="color: #c14679;">Shop <i class="fa fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="../product/product.html" style="color: #c14679;">Products</a></li>
+                    <li>
+                        <a href="../detail/detail.html">Detail<i class="fa fa-angle-right"></i></a>
+                        <ul class="sub-child">
+                            <li><a href="">Cakes</a></li>
+                            <li><a href="">Baking</a></li>
+                            <li><a href="">Recipes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../cart/cart.html">Cart</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../blog/grid/grid.html">Blog <i class="fa fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="../blog/grid/grid.html">Grid Blog</a></li>
+                    <li><a href="../blog/lists/list.html">Blog List</a></li>
+                    <li><a href="../blog/post/post.html">Blog Post</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../offer/offer.html">About <i class="fa fa-angle-down"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Our team</a></li>
+                    <li><a href="../offer/offer.html">What we offer?</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="../contact/contact.html">contact us</a></li>
+
+        </ul>
+        <div class="btn-left">
+            <a href=""><i class="fa fa-search"></i></a>
+            <a href="../accout/register.html"><i class="fa fa-user-circle-o"></i></a>
+        </div>
+    </div>
+
+
+
+    <!-- SLIDER -->
+
+    <div class="img-slider">
+        <h1>Products</h1>
+    </div>
+
+    <div class="contact-sub">
+        <div>
+            HOME &ensp; &#10140; &ensp;SHOP<span> &ensp; &#10140; &ensp;PRODUCT - Grid</span>
+        </div>
+    </div>
+
+    <!-- SHOP -->
+    <div class="shop-product">
+        <div class="pd-left">
+            <div class="list__filter">
+                <div class="wrapper">
+                    <header>
+                      <h4>Filter by price</h4>
+                    </header>
+                    <div class="price-input">
+                      <div class="field">
+                        <span>Min</span>
+                        <input type="number" class="input-min" value="2500">
+                      </div>
+                      <div class="separator">-</div>
+                      <div class="field">
+                        <span>Max</span>
+                        <input type="number" class="input-max" value="7500">
+                      </div>
+                    </div>
+                    <div class="slider">
+                      <div class="progress"></div>
+                    </div>
+                    <div class="range-input">
+                      <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                      <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                    </div>
+                  </div>
+            </div>
+
+            <div class="list__categories">
+                <h4>Categories</h4>
+                <hr>
+                <div class="cate-element">
+                    <div class="title">
+                        <p>All</p>
+                        <p>Cakes</p>
+                        <p>Baking</p>
+                        <p>Recipes</p>
+                    </div>
+                    <div class="number">
+                        <p>(18)</p>
+                        <p>(9)</p>
+                        <p>(5)</p>
+                        <p>(8)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__input">
+                <div class="input-search">
+                    <i class="fa fa-search"></i>
+                </div>
+                <input type="text" placeholder="Search blog...">
+                
+            </div>
+
+            <div class="list__popular">
+                <h4>Popular products</h4>
+                <hr>
+                <div class="popular-element">
+                    <div class="popular-img">
+                        <img src="../images/pds/product-mini-1-106x104.png" class="post-mini" alt="">
+                    </div>
+                    <div class="popular-text">
+                        <p><a href="">Chocolate pudding</a></p>
+                        <span>$25.00</span>
+                    </div>
+                </div>
+                <div class="popular-element">
+                    <div class="popular-img">
+                        <img src="../images/pds/product-mini-2-106x104.png" class="post-mini" alt="">
+                    </div>
+                    <div class="popular-text">
+                        <p><a href="">Truffles</a></p>
+                        <span>$23.00</span>
+                    </div>
+                </div>
+                <div class="popular-element">
+                    <div class="popular-img">
+                        <img src="../images/pds/product-mini-3-106x104.png" class="post-mini" alt="">
+                    </div>
+                    <div class="popular-text">
+                        <p><a href="">Chocolate Ckae</a></p>
+                        <span>$15.00</span>
+                    </div>
+                </div>  
+                <br>
+            </div>
+        </div>
+            
+        <div class="pd-right">
+            <div class="pds-nav">
+                <div>
+                    <p>Showing 1 - 9 of 28 results</p>
+                </div>
+
+                <div>
+                    <select name="option" id="option">
+                        <option value="newness">Sort by newness</option>
+                        <option value="popularity">Sort by popularity</option>
+                        <option value="alphabet">Sort by alphabet</option>
+                    </select>&ensp; &ensp;
+                    <a href=""><i class="fa fa-th"></i>&nbsp;</a>
+                    <a href="../pds-lists/pds.html"><i class="fa fa-list-ul"></i></a>
+                    
+                </div>
+            </div>
+            <!-- NEW-PRODUCTS -->
+            <div class="new-product">
+                <div class="content-section">
+                    <div class="product-card">
+                        <!-- item-1 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                    style="background: url(../images/product/sp-9.jfif) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>Choco Cherry</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $15.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-2 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                    style="background: url(../images/product/sp-10.jfif) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>raspberry cake</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <div class="p-price">
+                                        <span class="old-price">
+                                            $20.00
+                                            
+                                        </span>
+                                        <span class="new-price">
+                                            $15.00
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-3 -->
+                        <div class="product-item-wrap"> 
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                    style="background: url(../images/product/sp-12\ .jfif) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badges">NEW</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>passion fruit</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $35.00
+                                        
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-4 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                    style="background: url(../images/product/sp-3.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badges">NEW</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>strawberry cake</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $12.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item- 5 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(../images/product/sp-4.jpeg) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>Orange crepe</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="new-price">
+                                        $20.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-6 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(../images/product/pd-1.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+                                </div>
+                                <div class="p-content">
+                                    <a href="../detail/detail.html">
+                                        <h3>Macaroon Cakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                       $25.00
+                                    </span>
+                                    <span class="new-price">
+                                        $15.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-7 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(../images/product/sp-6.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badges">NEW</span>
+
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>fruits cupcakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $25.00
+                                    </span>
+                                    <span class="new-price">
+                                        $10.00
+                                        
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-8 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(../images/product/sp-7.jpg) center center / cover no-repeat;">
+                                    </div>
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>donut cakes</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+
+                                    <span class="new-price">
+                                        $10.00
+                                        
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item-9 -->
+                        <div class="product-item-wrap">
+                            <div class="product-item">
+                                <div class="p-picture">
+                                    <div
+                                        style="background: url(../images/product/sp-8.jpg) center center / cover no-repeat;">
+                                    </div>
+                                    <span class="p-badge">SALE</span>
+
+                                </div>
+                                <div class="p-content">
+                                    <a href="">
+                                        <h3>orange pudding</h3>
+                                    </a>
+                                    <p>Lorem ipsum dolar sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="p-price">
+                                    <span class="old-price">
+                                        $35.00
+                                    </span>
+                                    <span class="new-price">
+                                        $30.00
+                                    </span>
+                                </div>
+                                <div class="p-button">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                    <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a href=""><i class="fa fa-heart-o"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-pagi">
+                <span><i class="fa fa-angle-double-left"></i>  &ensp; &ensp;</span>
+                <span class="one">1</span> 
+                <span>&ensp; &ensp; 2 </span>
+                <span>&ensp; &ensp; 3</span>
+                <span>&ensp; &ensp; <i class="fa fa-angle-double-right"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div id="footer-main">
+            <div class="gallery">
+                <h2>gallery</h2>
+                <div class="img-gallery">
+                    <div class="thumnail">
+                        <a href=""><img src="/images/footer/footer-1.jpg" class="grid-gallery" alt=""></a>
+                        <a href=""><img src="/images/footer/footer-2.jpg" alt=""></a>
+                        <a href=""><img src="/images/footer/footer-3.jpg" alt=""></a>
+                    </div>
+
+                    <div class="thumnail">
+                        <a href=""><img src="/images/footer/footer-4.jpg" alt=""></a>
+                        <a href=""><img src="/images/footer/footer-5.jpg" alt=""></a>
+                        <a href=""><img src="/images/footer/footer-6.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="quick-link">
+                <h2>quick link</h2>
+                <div class="link">
+                    <div class="link-left">
+                        <a href="">- About Us</a><br>
+                        <a href="">- Our Team</a><br>
+                        <a href="">- Shop</a><br>
+                        <a href="">- Pricing</a><br>
+                        <a href="">- FQA</a><br>
+                        <a href="">- Contact Us</a><br>
+                    </div>
+
+                    <div class="link-right">
+                        <a href="">- What We Offer</a><br>
+                        <a href="">- Our blog</a><br>
+                        <a href="">- Testimonials</a><br>
+                        <a href="">- Baking School</a><br>
+                        <a href="">- Our Recipes</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="social-links">
+                <h2>get in touch</h2>
+                <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> 16 rue Royale,75008 Paris
+                    France</a><br>
+                <a href=""><i class="fa fa-phone" aria-hidden="true"></i> (+84)123 456 789</a><br>
+                <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> punpunxd@gmail.com</a>
+                <div class="social-network">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div id="footer-sub">
+            <p><i class="fa fa-copyright"></i> 2021.Sweet Cakes All Right Reserved</p>
+        </div>
+    </div>
+
+    <script src="./product.js"></script>
+</body>
+
+</html>

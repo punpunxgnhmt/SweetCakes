@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+
+      <link rel="stylesheet" href="./login.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Login</title>
+</head>
+<body>
+
+            <!-- HEADER -->
+    <div class="header">
+        <ul class="header__list">
+            <li class="header__item header__address">
+                <img src="../images/map.png" alt="" class="map"> 
+                <div class="banner__slogan">
+                    <p>16 rue Royale,</p>
+                    <p>75008 Paris France</p>
+                </div>
+            </li>
+            <li class="header__item header__logo">
+                <img src="../images/logo.png" alt="" class="header__logo-img">
+            </li>
+            <li class="header__item header__contact banner-content">
+                <a href="" class="header__contact-link">
+                     <i class="fa fa-envelope-o"></i>
+                     GET IN TOUCH
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+      
+        
+        <!-- NAV -->
+        <div class="nav">
+            <ul class="menu">
+                <li><a href="../index.html"><i class="fa fa-home"></i> home</a></li>
+                <li><a href="../gallery/gallery.html">gallery</a></li>
+                <li>
+                    <a href="../product/product.html">Shop <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="../product/product.html">Products</a></li>
+                        <li>
+                            <a href="../detail/detail.html">Detail<i class="fa fa-angle-right"></i></a>
+                            <ul class="sub-child">
+                                <li><a href="">Cakes</a></li>
+                                <li><a href="">Baking</a></li>
+                                <li><a href="">Recipes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../cart/cart.html">Cart</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../blog/grid/grid.html">Blog <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="../blog/grid/grid.html">Grid Blog</a></li>
+                        <li><a href="../blog/lists/list.html">Blog List</a></li>
+                        <li><a href="../blog/post/post.html">Blog Post</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../offer/offer.html">About <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Our team</a></li>
+                        <li><a href="../offer/offer.html">What we offer?</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="../contact/contact.html" >contact us</a></li>
+
+            </ul>
+            <div class="btn-left">
+                <a href=""><i class="fa fa-search"></i></a>
+                <a href="./accout/register.html"  style="color: #c14679;"><i class="fa fa-user-circle-o"></i></a>
+            </div>
+        </div>
+
+        <!-- LOGIN -->
+    <div class="form-login">
+      <br><br>
+      <div class="login">
+        <form method="get" accept-charset="utf-8" id="formDemo">
+          <div class="logo">
+            <div class="logo-gg">
+              <img src="./images/logo-gg.png" alt="">
+              <span>Login with Google</span>
+            </div>
+            <div class="logo-gg">
+              <img src="./images/logo-fb.png" alt="">
+              <span>Login with Facebook</span>
+            </div>
+          </div><br>
+          <label for="">- OR -</label><br>
+          <input class="input_form" name="name" type="text" placeholder="Username" required><br>
+  
+          <input class="input_form" name="email" type="email" placeholder="Email" required><br>
+          
+          <input id="pass" class="input_form" name="password" type="password" placeholder="Password" required>
+          <i class="fa fa-eye-slash" onclick="showHide()"></i><br>
+  
+          <div class="check">
+            <input type="checkbox" class="check-box">
+            <span>Remember Password</span>
+          </div>
+          
+          <center><a href="../index.html"><input id="submit" type="button" value="Log in"></a></center>
+  
+          <label for="">Not a Member? </label>
+          <a href="./register.html">Register</a>
+        </form>
+      </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="footer">
+      <div id="footer-main">
+          <div class="gallery">
+              <h2>gallery</h2>
+              <div class="img-gallery">
+                  <div class="thumnail">
+                      <a href=""><img src="../images/footer/footer-1.jpg" class="grid-gallery" alt=""></a>
+                      <a href=""><img src="../images/footer/footer-2.jpg" alt=""></a>
+                      <a href=""><img src="../images/footer/footer-3.jpg" alt=""></a>
+                  </div>
+  
+                  <div class="thumnail">
+                      <a href=""><img src="../images/footer/footer-4.jpg" alt=""></a>
+                      <a href=""><img src="../images/footer/footer-5.jpg" alt=""></a>
+                      <a href=""><img src="../images/footer/footer-6.jpg" alt=""></a>  
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="quick-link">
+              <h2>quick link</h2>
+              <div class="link">
+                  <div class="link-left">
+                      <a href="">- About Us</a><br>
+                      <a href="">- Our Team</a><br>
+                      <a href="">- Shop</a><br>
+                      <a href="">- Pricing</a><br>
+                      <a href="">- FQA</a><br>
+                      <a href="">- Contact Us</a><br>
+                  </div>
+  
+                  <div class="link-right">
+                      <a href="">- What We Offer</a><br>
+                      <a href="">- Our blog</a><br>
+                      <a href="">- Testimonials</a><br>
+                      <a href="">- Baking School</a><br>
+                      <a href="">- Our Recipes</a>
+                  </div>
+              </div>
+              
+          </div>
+
+
+          <div class="social-links">
+              <h2>get in touch</h2>
+              <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> 16 rue Royale,75008 Paris France</a><br>
+              <a href=""><i class="fa fa-phone" aria-hidden="true"></i> (+84)123 456 789</a><br>
+              <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> punpunxd@gmail.com</a>
+              <div class="social-network">
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+          </div>
+
+      </div>
+      <hr>
+      <div id="footer-sub">
+          <p><i class="fa fa-copyright"></i> 2021.Sweet Cakes All Right Reserved</p>
+      </div>
+  </div>
+
+    <script src="./account.js"></script>
+  </body>
+  </html>
