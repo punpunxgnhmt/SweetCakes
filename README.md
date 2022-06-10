@@ -1,4 +1,4 @@
-# Link demo 👇:
+# Link demo 👇
 
 https://sweetcakesbypun.netlify.app/
 
