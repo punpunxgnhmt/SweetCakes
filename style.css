@@ -206,6 +206,17 @@ html{
      box-shadow: 0 0 10px rgba(245, 139, 139, 0.5);
 
 }
+
+/* .menu .sub-child::after{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: transparent;
+} */
+
 .menu li:nth-last-child(2):hover .sub-child{
     display: block;
 }
@@ -571,6 +582,8 @@ html{
 .new-product .product-button{
     text-align: center;
     margin: 50px 0;
+    width: 100%;
+
     
 }
 .product-button .content-btn{
@@ -1041,6 +1054,7 @@ html{
     width: 35px;
 }
 #one:checked ~ .button .one{
+
     width: 35px;
 }
 #one:checked ~ .button .two{
